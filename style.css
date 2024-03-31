@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(60, 23, 209);
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(161, 219, 219);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("background image.jpg");
+    background-size: cover;
+}
+
+section{
+    min-height: 100vh;
+    padding: 10rem 95 2rem;
+}
+
+.header{
+    padding: 25px 10%;
+    background-color: rgb(239, 160, 160);
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar a{
+    margin-left: 4rem;
+    font-size: 1.7rem;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: 0.3s all;
+    
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: blue;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("home.png.jpg");
+    background-size:cover;
+    
+}
+
+.home-content h3{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.home-content h1{
+    font-size:4.6rem;
+    line-height: 1.3rem;
+}
+
+.home-content p{
+    font-size: 2rem;
+    font-size: 400;
+
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: rgb(174, 174, 228);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem;
+    font-size: 1.6rem;
+    color: rgb(95, 39, 213);
+    letter-spacing: .1rem;
+    font-weight: 600px;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    box-shadow:none;
+}
+
+.about{
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.about-content h2{
+    line-height: 1.2rem;
+    text-align: left;
+    font-size: 5rem;
+}
+
+.about-content p{
+    margin: 2rem 0 3rem;
+    font-size: 1.6rem;
+}
+
+.about-content h3{
+    font-size: 2.6rem;
+}
+
+.span{
+    gap: 1rem;
+}
+
+.skill h2{
+      margin-bottom: 5rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 4.6rem;
+}
+
+.skill-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.skill-content .box1{
+    flex: 1 1 30rem;
+    background-color: rgb(228, 232, 232);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 1rem solid rgb(203, 177, 227);
+    border: .2rem solid;
+    transition: .5s ease;
+    color: black;
+}
+
+.skill-content .box1:hover{
+    border-color: grey;
+    transform: scale(1.02);
+}
+
+.project h2{
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.6rem;
+}
+
+.project-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.project h3{
+    font-size: 2.0rem;
+}
+
+.project img{
+   width: 400px;
+   max-width: 200px;
+   background-size:100%;
+}
+
+.project-content .box1{
+  flex: 1 1 20rem;
+  background-color: rgb(222, 247, 247);
+  padding: 2rem 2rem 3rem;
+  border-radius: 1rem;
+  text-align: center;
+  border: 1rem solid rgb(35, 32, 37);
+  transition: .7s ease;
+}
+
+.project-content .box1:hover{
+    border-color: rgb(14, 19, 5);
+    transform: scale(1.02);
+}
+
+.contact h2{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.6rem;
+}
+
+.contact form{
+    max-width: 70rem;
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+}
+
+.content form .input-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea{
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.6rem;
+    background-color: rgb(221, 168, 168);
+    color: rgb(41, 121, 192);
+    border-radius: .8rem;
+    margin: .7rem 0;
+}
+
+.contact form .input-box input{
+    width:49%;
+}
+
+.contact form textarea{
+    resize: none;
+}
+
+.contact form btn{
+    cursor: pointer;
+    margin-top: 2rem;
+    padding: 14px 60px;
+}
+
+.contact form p{
+    font-size: large;
+}
+
+#msg{
+    color:rgb(255, 55, 0);
+    margin-top: -40px;
+    display: block;
+    font-size: larger;
+    
+    
+}
+
+
+
+
